@@ -1,0 +1,114 @@
+.user-container {
+  left: 0;
+  right: 0;
+  height: 720px;
+
+  margin-top: 75px;
+  margin-left: -8px;
+  position: relative;
+}
+.user-welcome {
+  position: absolute;
+  right: 0;
+  font-size: 25px;
+}
+.user-image {
+  background-image: url(../../assets/imageuser.jpg);
+  background-size: cover;
+  height: 720px;
+  width: 550px;
+  text-align: center;
+}
+.user-image button {
+  border: none;
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f7dec4;
+  border-radius: 8px;
+  margin-top: 85px;
+  width: 250px;
+  height: 50px;
+  box-shadow: 0px 2px 9px 2px #deab90;
+}
+.user-features {
+  position: absolute;
+  left: 600px;
+  /* border: 2px solid red; */
+  height: fit-content;
+  width: 650px;
+  top: 10px;
+}
+
+.userIssue-container {
+  font-family: Arial, sans-serif;
+  margin-top: 0px;
+}
+.userDonate-container {
+  font-family: Arial, sans-serif;
+  margin-top: 150px;
+  margin-left: 60px;
+}
+
+.formIssue-container {
+  display: flex;
+  flex-direction: column;  
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 650px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.formDonate-container {
+  display: flex;
+  flex-direction: column;  
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.formIssue-container .header {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.formDonate-container .header {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.input-field {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 200px;
+  
+}
+
+.submit-btn {
+  margin: 10px;
+  padding: 8px 15px;
+  color: white;
+  font-size: 18px;
+  background-color: #2980b9;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.profile-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 625px;
+  height: 580px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}

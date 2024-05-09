@@ -1,0 +1,35 @@
+.removeButton{
+    width: calc(100% - 2px);
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+.search-field {
+    margin-bottom: 20px;     
+    border-radius: 50px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 70px;
+}
+.returnButton{
+    width: calc(100% - 2px);
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(24, 190, 24);
+    color: #fff;
+    cursor: pointer;
+}
+.issueButton{
+    width: calc(100% - 2px);
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}  

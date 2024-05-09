@@ -1,0 +1,66 @@
+
+.aboutusText{
+    position: absolute;
+    left:0px;
+    color: azure;
+    /* bottom: 0px; */
+    height: fit-content;
+    width: 100%;
+    font-size: 20px;
+   
+    background-image: url(../../assets/vecteezy_photo-of-an-open-book-and-vase-of-flowers-on-a-table-with_26857986.jpg);
+    background-size: cover;   
+}
+.aboutusText1{
+    font-size: 60px;
+    font-weight: 600;
+
+}
+.aboutusText2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.aboutusText3{
+    font-size: 25px;
+
+}
+.containeraboutUs{
+    display: flex;    
+    align-items: center;
+    
+  
+}
+
+
+.box{ 
+    color: white;  
+    margin: 10px;
+    padding: 5px;
+    /* text-align:center; */
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.668px;
+}
+.social-media{
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;   
+
+}
+.useful-links{
+    position: absolute;
+    right: 180px;
+    bottom: -8px;
+    width: 210px;
+    display: flex;
+    justify-content: space-between;   
+
+}
+.text{
+    position: relative;
+    left: 40px;
+
+}

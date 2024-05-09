@@ -1,0 +1,92 @@
+
+.container{
+    height: 700px;
+    width: 101%;
+    display: flex; 
+    position: relative;   
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    background-image: url(../../assets/large-collection-old-books-wooden-shelves-generated-by-ai.jpg ) ;
+    background-size: cover;
+    margin-left: -8px;
+}
+.loginpage{
+    position: absolute;
+    top: 80px;
+    left: 565px;
+    color: white;
+    font-size: 25px;    
+}
+.loginpage span{
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase; 
+}
+
+.loginform{
+    text-align:justify;
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 500px; 
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    background-color: #ffedd8;
+    box-shadow: 0px 2px 9px 2px #deab90;
+    text-align:justify;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.formInputs{
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+
+.inputLogin input{
+    
+    border-radius: 4px;
+    border: 0.833px solid #344381;
+    padding: 12px 20px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+#inputPass{
+    margin-left: 119px;
+}
+
+
+button.submit{
+  background-color: white;
+  border: 0.833px solid #D4D7E3;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.282px;
+  line-height: 100%;
+  letter-spacing: 0.282px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 210px;
+}
+button.signUpButton{
+    margin-left: 130px;
+    background-color: white;
+    border: 0.833px solid #D4D7E3;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.282px;
+    line-height: 100%;
+    letter-spacing: 0.282px;
+    height: 40px;
+    cursor: pointer;
+}

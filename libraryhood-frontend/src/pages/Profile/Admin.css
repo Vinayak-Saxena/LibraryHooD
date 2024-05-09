@@ -1,0 +1,118 @@
+
+.admin-library {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin-top: 50px;
+  padding: 20px; 
+  padding-left: 30px;
+  
+}
+
+.admin-library h1 {
+  text-align: center;
+}
+
+.admin-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.admin-actions form,
+.issue-return {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 10px;
+  height: 310px;
+}
+
+#add-student-form button,#remove-book-form button ,
+.admin-actions form input,
+.issue-return input,
+.issue-return button {
+  margin-bottom: 10px;
+  width: calc(100% - 22px);
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.admin-actions form button,
+.issue-return button{
+  width: calc(100% - 22px);
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+.admin-actions form button:hover,
+.issue-return button:hover {
+  background-color: #2980b9;
+}
+
+.books-list {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.book h3 {
+  margin-top: 0;
+}
+
+.student-records,
+.fine-details {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.record,
+.fine-record {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.record h3,
+.fine-record h3 {
+  margin-top: 0;
+}
+
+.record p,
+.fine-record p {
+  margin: 5px 0;
+}
+
+.send-reminder {
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
+  background-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.send-reminder:hover {
+  background-color: #27ae60;
+}
