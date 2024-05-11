@@ -116,6 +116,7 @@ Start the server
 | Delete Donated Book by ID         | /dbooks/:id (DELETE)   | Deletes a donated book from the database based on its ID    |                                                               | Deleted DonatedBook object (if found) or error message (if not found)   |
 
 
-## For Complete Frontend Documentation :  https://docs.google.com/document/d/1Hhnq98aw6pmrkWrc6BwElCOJ3s8r6owlYHL2RCScXE8/edit?usp=sharing
+## For Detailed Documentation : 
+https://docs.google.com/document/d/1Hhnq98aw6pmrkWrc6BwElCOJ3s8r6owlYHL2RCScXE8/edit?usp=sharing
 
   
